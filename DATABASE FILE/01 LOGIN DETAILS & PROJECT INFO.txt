@@ -1,0 +1,19 @@
+**Log on to codeastro.com for more projects!***
+
+**Database Name: hostelmsphp**
+
+**Developed by CodeAstro**
+
+**Recommended PHP Version 5.6, 7.4**
+
+
+**Admin Login Details**
+
+Username: admin
+email: admin@mail.com
+Password: Password@123
+
+**User Login Details**
+
+Username: priyasonkar597@gmail.com	
+Password: 123
