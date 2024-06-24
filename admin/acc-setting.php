@@ -24,7 +24,7 @@
             $_SESSION['msg']="Password has been changed";
         } else {
             $_SESSION['msg']="Current Password does not match";
-        }	
+        }   
         
 
     }
@@ -113,7 +113,7 @@
                                     </button>
                                     <strong>Info - </strong> <?php echo htmlentities($_SESSION['msg']); ?> <?php echo htmlentities($_SESSION['msg']=""); ?>
                                 </div>
-						<?php } ?>
+                        <?php } ?>
 
                             
                         
@@ -135,7 +135,6 @@
 
                     <div class="row">
 
-
                         <div class="col-sm-12 col-md-6 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
@@ -150,7 +149,6 @@
                         </div>
 
 
-
                         <div class="col-sm-12 col-md-6 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
@@ -163,7 +161,6 @@
                             </div>
                         </div>
 
-
                         <div class="col-sm-12 col-md-6 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
@@ -175,7 +172,7 @@
                             </div>
                         </div>
 
-                        <?php	
+                        <?php   
                         $aid=$_SESSION['id'];
                         $ret="SELECT * from admin where id=?";
                             $stmt= $mysqli->prepare($ret) ;
@@ -190,9 +187,7 @@
                         <h6 class="card-subtitle"><code>Last Updated On: </code> <?php echo $row->updation_date; }?> </h6>
 
 
-
                     </div>
-
 
                         <div class="form-actions">
                             <div class="text-center">
@@ -282,3 +277,4 @@
 </body>
 
 </html>
+
