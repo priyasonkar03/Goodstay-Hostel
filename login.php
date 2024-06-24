@@ -47,10 +47,17 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
-    <title>Hostel Management System</title>
+    <title>Goodstay Hostels</title>
     <!-- Custom CSS -->
     <link href="dist/css/style.min.css" rel="stylesheet">
-
+   <!-- Font Awesome icons (free version)-->
+   <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script type="text/javascript">
     function valid() {
     if(document.registration.password.value!= document.registration.cpassword.value){
@@ -61,13 +68,31 @@
     return true;
         }
     </script>
-
+    <style>
+        .logo{
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    </style>
 </head>
 
 <!-- By CodeAstro - codeastro.com -->
 
 <body>
-
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-5">
+                <img src="assets/img/logo.png" alt="" class="logo">
+                <!-- <a class="navbar-brand" href="#page-top">Start Bootstrap</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.php">Home->Login</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="login.php">Log In</a></li> -->
+                    </ul>
+                </div>
+            </div>
+</nav>
     <div class="main-wrapper">
         <!-- ============================================================== -->
         <!-- Preloader - style you can find in spinners.css -->
@@ -85,6 +110,7 @@
         <!-- ============================================================== -->
         <!-- Login box.scss -->
         <!-- ============================================================== -->
+        
         <div class="auth-wrapper d-flex no-block justify-content-center align-items-center position-relative"
             style="background:url(../assets/images/big/auth-bg.jpg) no-repeat center center;">
             <div class="auth-box row">
@@ -118,15 +144,14 @@
                                 </div>
                                 <div class="col-lg-12 text-center mt-5">
                                    <a href="admin/index.php" class="text-danger">Go to Admin Panel</a><br>
-                                   <a href="index.php" class="text-danger">Go Back</a>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
+                <?php include './includes/footer.php' ?>
             </div>
         </div>
-        <?php include './includes/footer.php' ?>
         <!-- By CodeAstro - codeastro.com -->
         <!-- ============================================================== -->
         <!-- Login box.scss -->
