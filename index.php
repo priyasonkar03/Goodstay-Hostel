@@ -216,6 +216,12 @@
                 </div>
         </section>
 </section>
+
+
+<footer class="py-5 bg-black mt-2">
+<?php include 'footer.php'?>    
+</footer>
+
   <!-- ============================================================== -->
     <!-- All Required js -->
     <!-- ============================================================== -->
@@ -237,10 +243,7 @@
 <!-- Core theme JS-->
 <script src="js/scripts.js"></script>
 <!-- Footer-->
-<!-- <footer class="py-5 bg-black mt-2">
-    <div class="container px-5"><p class="m-0 text-center text-white small"><?php include './includes/footer.php' ?></div>
-</footer> -->
-<?php include 'footer.php'?>
+
 <!-- AOS animations js -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
