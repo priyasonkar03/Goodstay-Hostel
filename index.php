@@ -22,7 +22,9 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="dist/css/styles.css" rel="stylesheet" />
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    </head>
+<!-- AOS animation link -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    
+</head>
 <style>
     .service-card {
         margin: 20px 0;
@@ -56,6 +58,7 @@
     }
     .home-testimonial{background-color: #231834;height: 380px}.home-testimonial-bottom{background-color: #f8f8f8;transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top: 20px;margin-bottom: 0px;position: relative;height: 130px;top: 190px}.home-testimonial h3{color: var(--orange);font-size: 14px;font-weight: 500;text-transform: uppercase}.home-testimonial h2{color: white;font-size: 28px;font-weight: 700}.testimonial-inner{position: relative;top: -174px}.testimonial-pos{position: relative;top: 24px}.testimonial-inner .tour-desc{border-radius: 5px;padding: 40px}.color-grey-3{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}.testimonial-inner img.tm-people{width: 60px;height: 60px;-webkit-border-radius: 50%;border-radius: 50%;-o-object-fit: cover;object-fit: cover;max-width: none}.link-name{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}.link-position{font-family: "Montserrat", Sans-serif;font-size: 12px;color: #6c83a2}
 </style>
+
 <body>
 
 <?php include 'header.php'?>
@@ -69,7 +72,7 @@
         <h2 class="text-center my-4">Our Services</h2>
         <div class="row">
             <div class="col-md-4">
-                <div class="card service-card">
+                <div class="card service-card"  data-aos="flip-left">
                     <img src="assets/img/service1.png" class="card-img-top service-img" alt="Room Management">
                     <div class="card-body">
                         <h5 class="card-title">Funrihsed Rooms</h5>
@@ -78,7 +81,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card service-card">
+                <div class="card service-card" data-aos="flip-left">
                     <img src="assets/img/service2.png" class="card-img-top service-img" alt="Maintenance Requests">
                     <div class="card-body">
                         <h5 class="card-title">WIFI</h5>
@@ -87,7 +90,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card service-card">
+                <div class="card service-card" data-aos="flip-left">
                     <img src="assets/img/service3.png" class="card-img-top service-img" alt="Billing and Payments">
                     <div class="card-body">
                         <h5 class="card-title">Canteen</h5>
@@ -96,7 +99,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card service-card">
+                <div class="card service-card" data-aos="flip-left">
                     <img src="assets/img/service4.png " class="card-img-top service-img" alt="Communication">
                     <div class="card-body">
                         <h5 class="card-title">Housekeeping</h5>
@@ -105,7 +108,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card service-card">
+                <div class="card service-card" data-aos="flip-left">
                     <img src="assets/img/service5.png" class="card-img-top service-img" alt="Security">
                     <div class="card-body">
                         <h5 class="card-title">Watchman</h5>
@@ -114,7 +117,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card service-card">
+                <div class="card service-card" data-aos="flip-left">
                     <img src="assets/img/service6.png" class="card-img-top service-img" alt="Customization">
                     <div class="card-body">
                         <h5 class="card-title">Armed Guards</h5>
@@ -127,7 +130,7 @@
 </section>
 <!-- About section -->
 <section id="about">
-    <div class="container px-5">
+    <div class="container px-5"  data-aos="zoom-in-up">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="p-5"><img class="img-fluid" src="assets/img/About.png" alt="..." /></div>
@@ -149,17 +152,17 @@
         <h2 class="text-center my-4">Our Gallery</h2>
         <div class="row">
             <div class="col-md-4">
-                <div class="card service-card">
+                <div class="card service-card"  data-aos="zoom-out-up">
                     <img src="assets/img/gallery1.png" class="card-img-top gallery-img" alt="Room Management">
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card service-card">
+                <div class="card service-card"  data-aos="zoom-out-up">
                     <img src="assets/img/gallery2.png" class="card-img-top gallery-img" alt="Room Management">
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card service-card">
+                <div class="card service-card"  data-aos="zoom-out-up">
                     <img src="assets/img/gallery3.png" class="card-img-top gallery-img" alt="Room Management">
                 </div>
             </div>
@@ -180,7 +183,7 @@
         <section class="home-testimonial-bottom">
             <div class="container testimonial-inner">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-4 style-3">
+                    <div class="col-md-4 style-3" data-aos="flip-up">
                         <div class="tour-item ">
                             <div class="tour-desc bg-white">
                                 <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
@@ -190,7 +193,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 style-3">
+                    <div class="col-md-4 style-3" data-aos="flip-up">
                         <div class="tour-item ">
                             <div class="tour-desc bg-white">
                                 <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
@@ -200,7 +203,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 style-3">
+                    <div class="col-md-4 style-3" data-aos="flip-up">
                         <div class="tour-item ">
                             <div class="tour-desc bg-white">
                                 <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
@@ -238,5 +241,10 @@
     <div class="container px-5"><p class="m-0 text-center text-white small"><?php include './includes/footer.php' ?></div>
 </footer> -->
 <?php include 'footer.php'?>
+<!-- AOS animations js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+     AOS.init();
+</script>
 </body>
 </html>
