@@ -69,7 +69,7 @@
 <!-- Services Section -->
 <section id="services" class="py-2">
     <div class="container">
-        <h2 class="text-center my-4">Our Services</h2>
+        <h2 class="text-center my-4" style="color: var(--orange);">Our Services</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card service-card"  data-aos="flip-left">
@@ -137,7 +137,7 @@
             </div>
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5">
-                    <h2 class="display-4">About Us!</h2>
+                    <h2 class="display-4" style="color: var(--orange);">About Us!</h2>
                     <p>At Goodstay hostel, we are dedicated to transforming the way hostels are managed and operated. Founded in 2024, our mission is to provide an efficient, user-friendly platform that simplifies the complexities of hostel administration, ensuring a seamless experience for both administrators and residents.<br>
                         Our mission is to empower hostel managers with the tools they need to create an organized, stress-free living environment. By leveraging cutting-edge technology, we aim to streamline daily operations, enhance communication, and improve the overall quality of life for hostel residents.
                     </p>
@@ -149,7 +149,7 @@
 <!-- Our Gallery section -->
 <section id="gallery" class="py-5">
     <div class="container">
-        <h2 class="text-center my-4">Our Gallery</h2>
+        <h2 class="text-center my-4" style="color: var(--orange);">Our Gallery</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card service-card"  data-aos="zoom-out-up">
