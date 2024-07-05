@@ -170,7 +170,7 @@
     </div>
 </section>
 <!-- Testimonial Section-->
-<section id="testimonial" class="home-testimonial">
+<!-- <section id="testimonial" class="home-testimonial">
     <div class="container-fluid">
         <div class="row d-flex justify-content-center testimonial-pos">
             <div class="col-md-12 pt-4 d-flex justify-content-center">
@@ -215,7 +215,7 @@
                     </div>
                 </div>
         </section>
-</section>
+</section> -->
 
 
 <footer class="py-5 bg-black mt-2">

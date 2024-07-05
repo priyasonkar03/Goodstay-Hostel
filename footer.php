@@ -5,7 +5,7 @@
 <!-- Footer Section -->
 <!-- Font Awesome icons (free version)-->
 <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-<footer style="background-color: #333; color: #fff; padding: 20px 0;">
+<footer style="background-color: #333; color: #fff; padding: 20px 0; margin-top:50px;">
     <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: 0 20px;">
         
         <!-- About Us Section -->

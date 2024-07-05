@@ -67,7 +67,7 @@
                         <li class="nav-item"><a class="nav-link" href="#services">Service</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#testimonial">Testiomonial</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#testimonial">Testiomonial</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="login.php">Log In</a></li>
                     </ul>
                 </div>
