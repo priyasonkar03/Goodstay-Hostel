@@ -33,7 +33,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Hostel Management System</title>
+    <title>Goodstay Hostels</title>
     <!-- Custom CSS -->
     <link href="../dist/css/styles.css" rel="stylesheet">
     <link href="../dist/css/style.css" rel="stylesheet">
