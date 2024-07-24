@@ -1,0 +1,66 @@
+.service-card {
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+.service-card button{
+    background-color: #FF7B43;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 40px;
+}
+.service-img {
+    height: 250px;
+    /* padding: 10px; */
+    width: 250px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.gallery-img{
+    height: 250px;
+    /* padding: 10px; */
+    width: 250px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.logo{
+    border-radius: 50px;
+}
+.home-img{
+    height: 50%;
+    width: 100%;
+}
+.home-testimonial{background-color: #231834;height: 380px}.home-testimonial-bottom{background-color: #f8f8f8;transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top: 20px;margin-bottom: 0px;position: relative;height: 130px;top: 190px}.home-testimonial h3{color: var(--orange);font-size: 14px;font-weight: 500;text-transform: uppercase}.home-testimonial h2{color: white;font-size: 28px;font-weight: 700}.testimonial-inner{position: relative;top: -174px}.testimonial-pos{position: relative;top: 24px}.testimonial-inner .tour-desc{border-radius: 5px;padding: 40px}.color-grey-3{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}.testimonial-inner img.tm-people{width: 60px;height: 60px;-webkit-border-radius: 50%;border-radius: 50%;-o-object-fit: cover;object-fit: cover;max-width: none}.link-name{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}.link-position{font-family: "Montserrat", Sans-serif;font-size: 12px;color: #6c83a2}
+
+/* Margque bar */
+#page2{
+    height: 100%;
+    width: 100%;
+    padding: 5vw 0;
+}
+#move{
+    /* background-color: #D9FF06; */
+    background-color: #F8E1D2;
+    display: flex;
+    padding: 2vw 0;
+    overflow: hidden;
+}
+
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5w;
+}
+.marque h1{
+    font-size: 2vw;
+}
+.marque img{
+    height: 4.5vw;
+}
