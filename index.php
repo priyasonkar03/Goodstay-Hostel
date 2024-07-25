@@ -31,37 +31,46 @@
 
 <?php include 'header.php'?>
 <!-- Home Section -->
-<section id="home" class="py-3 mt-5">
-    <img src="assets/img/home.png" class="home-img" alt="home">
+<section id="home" class=" hero">
+<video id="myVideo" width="100%" height="100%" autoplay loop muted plays-inline class="back-video">
+        <source src="assets/img/home.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video> 
+<!-- <img src="assets/img/home.png" class="home-img" alt="home"> -->
+<div class="content">
+    <h3>One room, Two beds, Three years, Four friends<br>
+    Hundreds of fights, Thousands of laughter and milions of unforgettable memories.</h3>
+    <a href="#">Explore</a>
+</div>
 </section>
 <div id="page2">
-        <div id="move">
-            <div class="marque">
-                <h1> All services available 24/7 hours <br>+123 456 7890 info@hostelmanagement.com </h1>
-                <img src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="">
-            </div>
-            <div class="marque">
+    <div id="move">
+        <div class="marque">
             <h1> All services available 24/7 hours <br>+123 456 7890 info@hostelmanagement.com </h1>
-                <img src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="">
-            </div>
-            <div class="marque">
-            <h1> All services available 24/7 hours <br>+123 456 7890 info@hostelmanagement.com </h1>
-                <img src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="">
-            </div>
-            <div class="marque">
-            <h1> All services available 24/7 hours <br>+123 456 7890 info@hostelmanagement.com </h1>
-                <img src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="">
-            </div>
-            <div class="marque">
-            <h1> All services available 24/7 hours <br>+123 456 7890 info@hostelmanagement.com </h1>
-                <img src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="">
-            </div>
+            <img src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="">
+        </div>
+        <div class="marque">
+        <h1> All services available 24/7 hours <br>+123 456 7890 info@hostelmanagement.com </h1>
+            <img src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="">
+        </div>
+        <div class="marque">
+        <h1> All services available 24/7 hours <br>+123 456 7890 info@hostelmanagement.com </h1>
+            <img src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="">
+        </div>
+        <div class="marque">
+        <h1> All services available 24/7 hours <br>+123 456 7890 info@hostelmanagement.com </h1>
+            <img src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="">
+        </div>
+        <div class="marque">
+        <h1> All services available 24/7 hours <br>+123 456 7890 info@hostelmanagement.com </h1>
+            <img src="https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg" alt="">
         </div>
     </div>
+</div>
 <!-- Services Section -->
 <section id="services" class="py-2">
     <div class="container">
-        <h2 class="text-center my-4" style="color:#FF7B43;">Our Services</h2>
+        <h2 class="text-center my-4" style="color:#FF7B43; font-weight: 700;">Our Services</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card service-card"  data-aos="flip-left">
@@ -170,7 +179,7 @@
 
 
 
-<footer class="py-5 bg-black mt-2">
+<footer  id="footer" class="py-5 bg-black mt-2">
 <?php include 'footer.php'?>    
 </footer>
 
@@ -196,6 +205,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="script.js"></script>
 <script src="js/scripts.js"></script>
+<!-- for video -->
+<script>
+    document.getElementById("#myVideo").play();
+</script>
 <!-- Footer-->
 
 <!-- AOS animations js -->

@@ -5,7 +5,7 @@
 <!-- Footer Section -->
 <!-- Font Awesome icons (free version)-->
 <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-<footer style="background-color: #333; color: #fff; padding: 20px 0; margin-top:50px;">
+<footer style=" color: #fff; padding: 10px 0; margin-top:50px;">
     <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: 0 20px;">
         
         <!-- About Us Section -->
@@ -44,6 +44,6 @@
     
     <!-- Copyright Section -->
     <div style="text-align: center; padding: 10px 0; border-top: 1px solid #444;">
-        <p>&copy; 2024 - Goodstay Hostels - Developed by | <a href="https://github.com/priyasonkar03">Priya Sonkar</a></p>
+        <p>&copy; 2024 - Goodstay Hostels - Developed by | <a href="https://github.com/priyasonkar03" style="text-decoration: none;">Priya Sonkar</a></p>
     </div>
 </footer>

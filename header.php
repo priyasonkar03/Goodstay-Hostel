@@ -53,13 +53,20 @@
             height: 50%;
             width: 100%;
         }
+        button{
+            background-color: #FF7B43;
+            border-radius: 10px;
+            border: none;
+            width: 80px;
+            height: 30px;
+        }
         .home-testimonial{background-color: #231834;height: 380px}.home-testimonial-bottom{background-color: #f8f8f8;transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top: 20px;margin-bottom: 0px;position: relative;height: 130px;top: 190px}.home-testimonial h3{color: var(--orange);font-size: 14px;font-weight: 500;text-transform: uppercase}.home-testimonial h2{color: white;font-size: 28px;font-weight: 700}.testimonial-inner{position: relative;top: -174px}.testimonial-pos{position: relative;top: 24px}.testimonial-inner .tour-desc{border-radius: 5px;padding: 40px}.color-grey-3{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}.testimonial-inner img.tm-people{width: 60px;height: 60px;-webkit-border-radius: 50%;border-radius: 50%;-o-object-fit: cover;object-fit: cover;max-width: none}.link-name{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}.link-position{font-family: "Montserrat", Sans-serif;font-size: 12px;color: #6c83a2}
 </style>
 <body id="page-top">
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
-                <img src="assets/img/logo.png" alt="" class="logo">
+                <a href="index.php"><img src="assets/img/logo.png" alt="" class="logo"></a>
                 <!-- <a class="navbar-brand" href="#page-top">Start Bootstrap</a> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -67,8 +74,8 @@
                         <li class="nav-item"><a class="nav-link" href="#services">Service</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#testimonial">Testiomonial</a></li> -->
-                        <li class="nav-item"><a class="nav-link" href="login.php">Log In</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#footer">Contact Us</a></li>
+                        <li class="nav-item" ><button><a href="login.php" style="text-decoration: none; color: #f8f8f8;">Login</a></button></li>
                     </ul>
                 </div>
             </div>
